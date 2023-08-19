@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border: 1px solid blue;
+        }
+   img{
+    margin: 10px;
+   }
+   /* By default static position property fix rhti hai */
+   .image1{
+    top: 100px;
+   }
+
+
+   /* Relative position property */
+   .image2{
+    position: relative;
+    /* top: 100px;
+    left: 100px; */
+   }
+
+   /* Absolute Position Property */
+   /* .image3{
+     position: absolute;  Overlap 
+   top: 100px;
+   } */
+
+   /* Fixed Position Property */
+   .image4{
+    position: fixed;
+   }
+
+   .container{
+    position: relative;
+    height: 5000px;
+    background-color: black;
+   }
+
+   /* Sticky Position Property */
+   .image3{
+    position: sticky;
+top: 100px;
+   }
+
+   .box{
+    height: 3000px;
+    background-color: aqua;
+   }
+</style>
+</head>
+<body>
+    <div class="container">
+   <img src="img1.jpg" 
+   width="300px"
+   height="300px"
+   alt="image1"
+   class="image1">
+   
+   <img src="img2.JPG" 
+   alt="image2"
+   width="300px"
+   height="300px"
+   class="image2">
+
+   <img src="img3.jpg" 
+   width="300px"
+   height="300px"
+   alt="image3"
+   class="image3">
+
+
+   <img src="img4.jpg" 
+   width="300px"
+   height="300px"
+   alt="image4"
+   class="image4">
+    </div>
+   <div class="box">
+
+   </div>
+</body>
+</html>
