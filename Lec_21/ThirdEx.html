@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container{
+background-color: burlywood; 
+ border: 5px solid black;
+ display: flex;
+ width: 500px;margin: 10px;
+    padding: 10px;
+ }
+ .box1{
+    background-color: hotpink;
+border: 2px solid red;
+width: 47%;
+margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+ }
+ .box2{
+    background-color: rgb(14, 240, 14);
+    border: 2px solid saddlebrown;
+    width: 47%;
+    margin: 10px;
+    padding: 10px;
+ }
+ p{
+    border: 2px solid black;
+ }
+ @media (max-width:640px){
+    .container{
+        flex-direction: column;
+    }
+ }
+</style>
+<body>
+    <div class="container">
+<div class="box1">
+    <p>Nishant Singh</p>
+<p>Student </p>
+</div>
+<div class="box2">
+    <img src="/Lec_17/img3.jpg" 
+    height="225px"; 
+    width="225px";>
+</div>
+    </div>
+</body>
+</html>

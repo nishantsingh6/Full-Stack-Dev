@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: antiquewhite;
+            border: 5px solid black;
+            margin: 5px;
+            padding: 5px;
+            display: flex;
+        }
+        .item{
+            height: 200px;
+            width: 200px;
+   border: 2px solid red;
+   margin: 10px;
+   padding: 10px;
+        }
+
+        #first{
+            background-color: aqua;
+        }
+        #sec{
+            background-color: rebeccapurple;
+        }
+        #third{
+            background-color: purple;
+        }
+        #fourth{
+            background-color: chartreuse;
+        }
+        @media (max-width:640px){
+     .container{
+        flex-direction: column;
+     }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="first">Box1</div>
+        <div class="item" id="sec">Box2</div>
+        <div class="item" id="third">Box3</div>
+        <div class="item" id="fourth">Box4</div>
+    </div>
+</body>
+</html>
