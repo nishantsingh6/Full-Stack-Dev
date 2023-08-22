@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{        
+        height: 650px;
+            border: 3px solid black;
+            background-color: blanchedalmond;
+            margin: 10px;
+            padding: 10px;
+             display: flex; 
+            justify-content:center;
+            align-items: center;
+        }
+        .box{
+            width: 300px;
+            height: 300px;
+            background-color: aqua;
+            border: 2px solid rebeccapurple;
+        }
+
+        /* Box Shadow */
+        .box{
+            box-shadow: 2px 3px red;
+
+            /* Add blur */
+            box-shadow: 3px 5px 50px blue;
+
+            /* Add spread */
+        box-shadow: 5px 5px 4px 60px gray;
+
+        /* Add inside */
+        box-shadow: inset 3px 4px seagreen;
+
+        /* Multiple shadow  */
+
+        box-shadow: 5px 5px red , 15px 15px yellowgreen;
+        } 
+
+        h2{
+         
+            /* Text Shadow */
+
+            text-shadow: 5px 4px white;
+
+            /* Add Blur */
+            text-shadow: 5px 5px 3px blue;
+
+            /* Add Inside */
+            text-shadow: 5px 5px red , 15px 15px yellowgreen;
+        }
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="box">
+    <h2>Hello</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum veritatis maiores non pariatur provident placeat illum culpa, earum necessitatibus, voluptatem alias minima, deleniti quaerat saepe!</p>
+</div>
+</div>
+</body>
+</html>
