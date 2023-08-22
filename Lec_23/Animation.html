@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            height: 650px;
+            background-color: yellowgreen;
+            border: 3px solid black;
+           
+            
+        }
+        .box{
+            width: 200px;
+            height: 50px;
+            background-color: brown;
+            border-radius: 10px;
+            border: 3px solid blue;
+            margin:10px;
+            padding: 10px;
+            position: relative;
+
+            /* Animation Property */
+         /* animation-name:rightmove ;
+         animation-direction: right;
+         animation-duration: 3s;
+         animation-delay: 0s;
+         animation-iteration-count: 0;
+         animation-timing-function: linear;
+         animation-fill-mode: backwards;
+         animation-direction: alternate; */
+
+         /* ShortHand notation */
+
+         animation: 5s ease-in 1s infinite alternate none running rightmove;
+
+        }
+        @keyframes rightmove {
+            from{
+     top: 0;
+     left: 0;
+            }
+            to{
+top: 0;
+left: 1200px;
+            }
+        }
+        #box2{
+            width: 200px;
+            height: 50px;
+            background-color: brown;
+            border-radius: 10px;
+            border: 3px solid blue;
+            margin:10px;
+            padding: 10px;
+            position: relative;
+animation: 5s ease-in 1s infinite alternate none running leftmove;
+        }
+
+        @keyframes leftmove {
+          from{  
+            top: 500px  ;
+            left: 1250px;
+        }
+        to{
+            top: 500px;
+            left: 0;
+        }
+    }
+
+    .circle{
+        width: 75px;
+        height: 75px;
+        border-radius: 50px;
+        background-color: aqua;
+        border: 1px solid black;
+        margin:10px;
+            padding: 10px;
+            position: relative;
+            top: 20%;
+            left: 50%;
+        animation: 5s ease-in 1s infinite alternate none running updown;
+    }
+    @keyframes updown {
+        0%{
+            top: 1%;
+            left: 5%;
+        }
+        30%{
+            top: 5%;
+            left: 90%;
+        }
+        60%{
+            top: 52%;
+            left: 10%;
+        }
+        100%{
+            top: 52%;
+            left: 90%;
+        }
+    }
+  
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+
+        </div>
+        <div id="box2">
+         
+        </div>
+        <div class="circle">
+
+        </div>
+    </div>
+</body>
+</html>
