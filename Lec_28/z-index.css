@@ -1,0 +1,27 @@
+.box{
+    width: 500px;
+height: 500px;
+background-color: aqua;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid black;
+    
+}
+.one{
+    background-color: yellowgreen;
+position: relative;
+z-index: 1;
+}
+.two{
+    background-color: brown;
+position: relative;
+bottom: 50px;
+z-index: 0;
+}
+.three{
+    background-color: tomato;
+}
