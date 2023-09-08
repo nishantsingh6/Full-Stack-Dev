@@ -77,3 +77,13 @@ console.log(arr.sort());
 //2d-Array
 let arr3=[[1,2],[3,4],[5,6,7]];
 console.log(arr3);
+
+//Array reference
+let arr1=[1];
+let arr4=[1];
+console.log([1]===[1]); //false
+ 
+arr1=[1];
+let narr=arr1;
+narr.push(10);
+console.log(arr1===narr); //true
