@@ -31,4 +31,49 @@ console.log(change2);
 
 console.log(s.repeat(3));
 
+//Array
+let arr=[1,2,3,4,5,6]
+console.log(arr);
 
+//Push method
+arr.push(7);
+arr.push(8);
+console.log(arr);
+
+//Pop method
+arr.pop();
+arr.pop();
+console.log(arr);
+
+//Unshift--Add data at index zero
+arr.unshift(9);
+console.log(arr);
+
+
+//shift--Delete data from start
+arr.shift()
+console.log(arr);
+
+//Find the index of value
+let idx=arr.indexOf(5);
+console.log(idx);
+
+//Include method
+console.log(arr.includes(10));
+console.log(arr.includes(1));
+
+//concat Method
+let arr2=[10,20,30,40,50];
+console.log(arr.concat(arr2));
+
+//Reverse method
+console.log(arr.reverse());
+
+
+//Sort method
+console.log(arr.sort());
+
+
+//2d-Array
+let arr3=[[1,2],[3,4],[5,6,7]];
+console.log(arr3);
