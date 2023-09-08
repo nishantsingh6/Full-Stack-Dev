@@ -20,7 +20,9 @@ console.log(i);
 }
 
 //Multiply of n number
-for(let i=3; i<=30; i=i+3){
+let num=prompt("enter your number :");
+num=parseInt(num);
+for(let i=num; i<=num*10; i=i+num){
     console.log(i);
 }
 
@@ -37,4 +39,10 @@ let i=1;
 while( i<= 5){
     console.log(i);
     i++;
+}
+
+//for of loop
+let fruits=['mango','apple','bnana'];
+for(i of fruits){
+    console.log(i);
 }
